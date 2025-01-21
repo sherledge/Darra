@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "241599764499",
+    "project_id": "darra5",
+    "storage_bucket": "darra5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241599764499:android:d566be5cae4679e40f87e6",
+        "android_client_info": {
+          "package_name": "com.example.darra5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkk0y22FSHzNOAZVH0mwmgirXHzUYxP2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
