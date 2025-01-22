@@ -153,8 +153,8 @@ class CartScreen extends StatelessWidget {
                     },
                 
   style: ElevatedButton.styleFrom(
-    backgroundColor:const Color(0xFF00B899), // Background color based on ColorScheme
-    foregroundColor: Theme.of(context).colorScheme.onPrimary, // Text color based on ColorScheme
+    backgroundColor:const Color(0xFF00B899),
+    foregroundColor: Theme.of(context).colorScheme.onPrimary,
     padding:const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
     textStyle:const TextStyle(fontSize: 18),
   ),   child:const Text('Proceed to invest'),
@@ -228,14 +228,14 @@ class CartScreen extends StatelessWidget {
       'timestamp': FieldValue.serverTimestamp(),
       'items': orderItems,
     }).then((_) {
-      cartController.clearCart(); // Clear the cart after placing the order
-      Get.to(() =>const OrdersScreen()); // Navigate to OrdersScreen
+      cartController.clearCart(); //clear cart after ordering
+      Get.to(() =>const OrdersScreen());
     }).catchError((error) {
 Get.snackbar(
-      'Error', // Title of the Snackbar
-      'Error adding order: $error', // Message of the Snackbar
-      snackPosition: SnackPosition.BOTTOM, // Position of the Snackbar
-      duration:const Duration(seconds: 3), // Duration for how long the Snackbar should be displayed
+      'Error',
+      'Error adding order: $error',
+      snackPosition: SnackPosition.BOTTOM, 
+      duration:const Duration(seconds: 3), 
     );    });
   }
 

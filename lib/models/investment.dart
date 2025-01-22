@@ -7,7 +7,7 @@ class Investment {
   final double amount;
   final double returns;
   final double profit;
-  final int duration; // Duration in days or months
+  final int duration; // duration in days or months
   final bool isActive;
 
   Investment({
@@ -33,7 +33,7 @@ toJson(){
   "IsActive":isActive,
   };
 }
-  // Method to convert Investment object to a map for Firebase
+  // Method to convert Investment object to a map for firebase
   Map<String, dynamic> toMap() {
     return {
       'id': id,
@@ -49,7 +49,7 @@ toJson(){
     };
   }
 
-  // Method to create an Investment object from a map (e.g., from Firebase)
+  // Method to create an Investment object from a map (from firebasee)
   factory Investment.fromMap(Map<String, dynamic> map) {
   return Investment(
     id: map['id'] ?? '',

@@ -16,7 +16,7 @@ ThemeData appTheme() {
     scaffoldBackgroundColor: AppColors.defaultBackground,
     cardColor: AppColors.secondary,
     primaryColor: AppColors.button,
-    textTheme:  // Set default font family
+    textTheme: 
        const TextTheme(
           headlineLarge: TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.bold),
           headlineMedium: TextStyle(fontFamily: 'Inter', fontWeight: FontWeight.bold),

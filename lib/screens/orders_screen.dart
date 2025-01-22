@@ -18,7 +18,7 @@ const  OrdersScreen({super.key});
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance
             .collection('orders')
-            .where('user_id', isEqualTo: userId) // Filter orders by user_id
+            .where('user_id', isEqualTo: userId) // filter orders by user_id
             .snapshots(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {

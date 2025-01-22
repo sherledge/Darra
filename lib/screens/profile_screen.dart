@@ -34,11 +34,11 @@ class ProfileScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          profile['name'] ?? 'User Name', // User name from auth controller
+                          profile['name'] ?? 'User Name', 
                           style:const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          profile['email'] ?? 'user@example.com', // User email from auth controller
+                          profile['email'] ?? 'user@example.com', 
                           style:const TextStyle(fontSize: 16),
                         ),
                       ],
@@ -51,7 +51,7 @@ class ProfileScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  profile['address'] ?? 'No address provided', // User address from auth controller
+                  profile['address'] ?? 'No address provided', 
                   style:const TextStyle(fontSize: 16),
                 ),
           const      SizedBox(height: 24),
