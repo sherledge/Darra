@@ -1,16 +1,17 @@
-# darra5
+# **Darra Farming App**
 
-A new Flutter project.
+Darra Farming is a Flutter-based mobile application that enables users to invest in farming businesses
+---
 
-## Getting Started
+## **Features**
+- 🌱 **Invest in Farming**: Explore multiple farming business options (e.g., hens, fish, eggs).
+- 🔄 **Smooth Navigation**: Built using the GetX state management library for fast and efficient performance.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## **Technologies Used**
+- **Flutter**: Framework for cross-platform mobile app development.
+- **GetX**: For state management, dependency injection, and route management.
+- **Dart**: Programming language for Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
